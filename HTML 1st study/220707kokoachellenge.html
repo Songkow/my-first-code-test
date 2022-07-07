@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <title>220707 kokoachellenge</title>
+  <style>
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Create An Account</h1>
+  <form>
+      <label>First name <input type="text" placeholder="First name" required></label>
+      <label>Last name <input type="text" placeholder="Last name" required></label>
+      <label>Email <input type="email" placeholder="Email" required></label>
+      <label>Username <input type="text" placeholder="Username" required></label>
+      <label>Password <input type="password" minlength="10" placeholder="Password" required></label>
+      <label>Birth day <input type="date" placeholder="YYYY/MM/DD" required></label>
+      <label>How happy are you? <input type="range" list="tickmarks" value="5" min="0" max="10" step="1" required>
+          <datalist id="tickmarks">
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+          </datalist>
+      </label>
+      <label>What is your fav.color <input type="color" required></label>
+      <label><input type="submit" value="Create Account"></label>
+  </form>
+
+</body>
+
+</html>
