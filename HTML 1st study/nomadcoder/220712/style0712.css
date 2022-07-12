@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#bgbox{
+    width: 980px;
+    height: 550px;
+    background-color: black;
+    display: flex;
+    justify-content: center;    
+    position: absolute;
+    transform: translate(0%, 100%);
+}
+#body__main__box{
+    margin: 20px 0px;
+    width: 575px;
+    height: 500px;
+    background-color: #6bbcbe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes dotsrotation{    
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+@keyframes sticksrotation{
+    0%{
+        transform: scale(1,1);
+    }
+
+    25%{
+        transform: scale(1,1.7);
+    }
+    50%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+
+}
+
+
+#bodybox__threedots{
+    animation: dotsrotation 1s ease-in-out;
+    animation-iteration-count:infinite ;
+    
+
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bodybox__threesticks{
+
+
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.threedots{
+    margin: 0px 13px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50px;
+    background-color: #f5f5f5;
+    
+}
+.threesticks{
+    animation: sticksrotation 1.0s ease-in;
+    animation-iteration-count:infinite ;
+    margin: 0px 3px;
+    height: 45px;
+    width: 10px;
+    background-color: #f5f5f5;
+    
+}
+.threesticks:nth-child(1) {
+    animation-delay: 0.0S;
+}
+.threesticks:nth-child(2) {
+    animation-delay: 0.1S;
+}
+.threesticks:nth-child(3) {
+    animation-delay: 0.2S;
+}
+.threesticks:nth-child(4) {
+    animation-delay: 0.3S;
+}
+.threesticks:nth-child(5) {
+    animation-delay: 0.4S;
+}
