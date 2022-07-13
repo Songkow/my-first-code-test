@@ -1,0 +1,149 @@
+*{
+    background-color: #fffdfd;
+    margin: 0;
+    border: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#main_box{
+    width: 415px;
+    height: 885px;
+    position: absolute;
+    border: 6px solid #00c6ad ;
+}
+#box01{
+    width: 415px;
+    font-size: 25px;
+    margin: 50px 0px;
+    
+    
+    
+}
+
+
+
+#main_box_span{
+    display: flex;
+    justify-content: center;
+    font-weight:bold
+    
+}
+.fa-xmark{
+    margin-left: 30px;
+    position: absolute;
+    
+}
+#box02{
+    display: flex;
+    align-content: flex-start;
+}
+
+
+
+.fa-image{
+    font-size: 50px;
+    color: white;
+    background-color: #ffbd11;   
+}
+#box02_orangebox{
+    margin: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 135px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #ffbd11;   
+}
+#box02__threetext{
+    display: flex;
+    flex-direction: column;
+}
+.box02__threetextclass{
+    margin: 5px 0px;
+}
+#box03{
+    display: flex;
+    align-items: center;
+    
+}
+#box03__play{
+    margin: 45px 30px;
+    margin-right: 0px;
+    width: 175px;
+    height: 60px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+
+ #box03__play__h2{
+    margin-left: 10px;
+ }
+
+ .box03__circle01{
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .fa-heart{
+    font-size: 35px;
+ }
+ .fa-plus{
+    font-size: 30px;
+ }
+ #box04__squirebox01{
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:0px 15px 50px 30px; 
+    background-color: #f85a2a;
+}
+
+#box04__squirebox02{
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:0px 15px 50px 30px; 
+    background-color: #ff89bb;
+}
+#box04__squirebox03{
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:0px 15px 50px 30px; 
+    background-color: #1947e5;
+}
+#box04__squirebox04{
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:0px 15px 50px 30px; 
+    background-color: #00c6ad;
+}
+.box04{
+    display: flex;
+    flex-direction: row;
+ }
+
+
